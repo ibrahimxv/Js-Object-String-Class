@@ -1,16 +1,18 @@
-# JavaScript: Object, String & Class Tasks
+# ⚡ JavaScript Practice: Objects, Strings & Classes
 
-Bu repozitoriyada JavaScript-də **Class (Method Chaining)**, **Array metodları**, **String manipulyasiyası** və **Obyekt yönümlü proqramlaşdırma** mövzularını əhatə edən 4 praktiki tapşırığın həlli yer almışdır.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=flat-square)
+![Score](https://img.shields.io/badge/Points-100%2F100-blue?style=flat-square)
+
+Bu repozitoriyada JavaScript-in əsas konsepsiyaları — **Class (Method Chaining)**, **Array metodları**, **String manipulyasiyası** və **Obyekt yönümlü strukturlar** üzrə 4 praktiki tapşırığın həlli təqdim olunur.
 
 ---
 
-## 📋 Tapşırıqların Təsviri və Həlli
+## 📂 Tapşırıqlar
 
-### 1. `CustomMatch` Class (Method Chaining)
-Riyazi əməliyyat ardıcıllığı (vurma/bölmə öncəliyi) nəzərə alınmadan, verilən əməliyyatları soldan-sağa zəncirvari şəkildə icra edən sinif.
+### 1️⃣ `CustomMatch` (Zəncirvari Əməliyyatlar)
+Riyazi əməliyyat öncəliyini (vurma/bölmə) nəzərə almadan, əməliyyatları soldan-sağa ardıcıl icra edən sinif.
 
-* **Metodlar:** `plus()`, `minus()`, `multiply()`, `divide()`
-* **Nümunə:**
-  ```javascript
-  const result = new CustomMatch(50).plus(6).minus(30).multiply(3).divide(2);
-  console.log(result.value); // Nəticə: 39
+```javascript
+const result = new CustomMatch(50).plus(6).minus(30).multiply(3).divide(2);
+console.log(result.value); // 39
